@@ -17,3 +17,6 @@
   background: #55ACEE;
   color: white;
 }
+.article.p{
+	display: flex;
+}
