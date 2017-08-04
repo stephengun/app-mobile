@@ -5,6 +5,7 @@ background:whitesmoke;
 }
 
 nav{
+  font-size:30px;
   display: flex;
   flex-direction: column;
   background:blue;
@@ -27,14 +28,14 @@ header{
 
 header img{
   width:100px;
-  height:40px;
+  height:60px;
   border:2px blue solid;
   margin:8px;
 
 }
 
 h1{
-  font-size:40px;
+  font-size:80px;
 }
 
 header div{
@@ -46,8 +47,6 @@ header div{
     background:blue;
 }
 
-
-
 main{
 position: absolute;
 z-index:-1;
@@ -56,24 +55,10 @@ margin-left:260px;
 margin-top:90px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+footer{
+  position: absolute;
+  top:0;
+}
 
 .fa {
   padding: 20px;
@@ -93,7 +78,4 @@ margin-top:90px;
 .fa .fa-twitter {
   background: #55ACEE;
   color: white;
-}
-.article.p{
-	display: flex;
 }
