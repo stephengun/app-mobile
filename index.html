@@ -7,20 +7,23 @@
   <script src="https://use.fontawesome.com/f66664ac40.js"></script>
   <script src="jquery.js"></script>
   <script src="js/js.js"></script>
-</head>
+  <link href="https://fonts.googleapis.com/css?family=Ruslan+Display" rel="stylesheet">
+  </head>
 <body>
   <header>
-    <nav>
-      <a href="#">Accuile</a>
-      <a href="#">News</a>
-      <a href="#">Boutique</a>
-      <a href="#">Travel</a>
-      <a href="#">Radio</a>
-      <a href="#">Weather</a>
-      <a href="#">À propos</a>
-      <a href="#">Contract</a>
-</nav>
-    <div><img src="image/headerlogo.png" alt="logo" />
+    <div class="dropdown">
+<button onclick="myFunction()" class="dropbtn"><div class="bla"></div>
+<div class="bla"></div>
+<div class="bla"></div></button>
+  <div id="myDropdown" class="dropdown-content">
+    <a href="#home">Accuile</a>
+    <a href="#about">News</a>
+    <a href="#about">Contract</a>
+    <a href="#about">Boutique</a>
+    <a href="#about">À propos</a>
+  </div>
+</div>
+<div><img src="image/headerlogo.png" alt="logo" />
    <h1>NVE FOOT</h1></div>
 </header>
   <main>
@@ -38,7 +41,12 @@
 
   <section class="article">
   <h3>'Alexis restera... c'est aussi simple que ça'</h3>
-  <img src="image/alexis.jpg" alt="alexis"/>
+  <div class="slideshow">
+  <ul>
+      <li><img src="image/alexis.jpg" alt="alexis" width="500px" height="300px" /></li>
+      <li><img src="image/bos.jpg" alt="alexis" width="500px" height="300px" /></li>
+      <li><img src="image/alexis2.jpg" alt="alexis" width="500px" height="300px" /></li>
+ </ul></div>
   <p>Arsène Wenger a répété jeudi qu'Alexis Sanchez honorerait bien sa dernière année de contrat avec Arsenal, qu'il le veuille ou non. Sanchez a notamment été annoncé dans le viseur du PSG et de Manchester City, deux clubs qui, au contraire d'Arsneal, joueront la Ligue des champions la saison prochaine. Tout ce que je peux vous dire, c'est qu'il est concentré et que ma décision est claire, a répété Wenger en conférence de presse ce jeudi. Il restera et respectera cette décision. C'est aussi simple que ça.</p>
   </section>
 
@@ -55,12 +63,12 @@
   </section>
 
   </main>
-  <!-- <footer>
-    <div class="fa">
+  <footer>
+
     <h3>Suivez nous sur les reseaux sociaux</h3>
-    <a href="https://www.facebook.com/BBC.Sports.Football/"><i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></a>
+    <div><a href="https://www.facebook.com/BBC.Sports.Football/"><i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></a>
     <a href="https://twitter.com/BBCSport"><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></a></div>
-    <p>Copyright &copy; 2017 NVE FOOT.<p></footer> -->
+    <a> &copy; 2017 NVE FOOT.</a></footer>
     </body>
 
     </html>
