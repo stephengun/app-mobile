@@ -54,6 +54,12 @@ main{
   margin-left:260px;
   margin-top:90px;
 }
+h3{
+  font-size:50px;
+}
+p{
+  font-size:40px;
+}
 
 footer{
   position: absolute;
