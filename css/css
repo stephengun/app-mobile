@@ -18,6 +18,12 @@ nav{
 
 nav a{
   margin-top:15px;
+  color:white;
+  text-decoration:none;
+}
+
+nav a:hover{
+  background-color:red;
 }
 
 header{
