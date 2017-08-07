@@ -1,15 +1,15 @@
 header .bla {
     width: 35px;
-    height:3px;
+    height:4px;
     background-color: black;
     color:black;
-    margin: 6px 0;
+    margin:7px 0;
 }
 .dropbtn {
     background-color:white;
     color:black;
     padding: 16px;
-    font-size: 16px;
+    font-size:5vh;
     border:2px black solid;
     cursor: pointer;
 }
@@ -22,8 +22,8 @@ header .bla {
     float: right;
     position: relative;
     display: inline-block;
-    width:100px;
-    height:20px;
+    margin-top:50px;
+    margin-left:10px;
 }
 
 .dropdown-content {
@@ -35,6 +35,9 @@ header .bla {
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     right:10;
     z-index: 1;
+    font-size:5vh;
+    width:300px;
+    height:150px;
 }
 
 .dropdown-content a {
@@ -73,23 +76,25 @@ header{
   display: flex;
   position:fixed;
   width: 100%;
+  height:200px;
   top:0;
   background-color:#3a85f4;
 }
 
 header img{
   width:100px;
-  height:60px;
+  height:70px;
   border:2px white solid;
-  margin:8px;
+  margin-top:50px;
 
 }
 
 h1{
-  font-size:80px;
+  font-size:8.5vh;
+  margin-bottom:10px;
 }
 
-header div{
+header .big{
     display: flex;
     align-items: center;
     height:80px;
@@ -97,20 +102,21 @@ header div{
     justify-content: center;
     font-family: 'Ruslan Display', cursive;
     color:#160c3d;
+    margin-top:20px;
 }
 
 main{
-  margin-top:80px;
+  margin-top:150px;
   padding:30px;
   background-color:#cfdff7;
 }
 
 main h3{
-  font-size:40px;
+  font-size:8vh;
 }
 
 main p{
-  font-size:25px;
+  font-size:6vh;
   padding:20px;
 }
 
@@ -128,6 +134,8 @@ footer{
   background:#757c87;
   color:white;
   padding:25px;
+  font-size:4vh;
+
 
 }
 .fa {
